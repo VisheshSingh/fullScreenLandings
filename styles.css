@@ -49,14 +49,31 @@ body {
 
 section {
   color: purple;
-  padding: 20px;
 }
 
 #section-a {
   background: purple;
   color: #fff;
+  padding: 20px;
 }
 
 #section-b {
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+#section-c {
+  display: flex;
+}
+
+#section-c #box1,
+#section-c #box3 {
+  background: purple;
+  color: #fff;
+  padding: 20px;
+}
+
+#section-c #box2 {
+  padding: 20px;
   background: #f4f4f4;
 }
